@@ -8,6 +8,8 @@ gem "rails", "~> 7.0.6"
 
 gem 'rails_semantic_logger'
 
+gem 'ddtrace', require: 'ddtrace/auto_instrument'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
